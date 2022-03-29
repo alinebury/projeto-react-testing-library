@@ -44,7 +44,7 @@ describe('Requisito 5 - Teste componente Pokedex', () => {
     });
   });
 
-  it('Testa se a Pokédex contém um botão para resetar o filtro', () => {
+  test('Testa se a Pokédex contém um botão para resetar o filtro', () => {
     renderWithRouter(<App />);
 
     const buttonType = screen.getAllByTestId('pokemon-type-button');
